@@ -1,0 +1,127 @@
+.shop-img{
+	background: transparent;
+	cursor: pointer;
+	position: relative;
+}
+
+
+.title-img{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 0px 15px;
+	position: relative;
+  
+} 
+.title-img h1{
+    font-family: 'montserrat';
+    font-size: 23px;
+    font-weight: 400;
+	
+    
+    
+    
+  } 
+	
+.cambio{
+	
+  position: relative;
+  padding: 5px;
+  overflow: hidden;
+  
+  width: 120px;
+  height: 40px;
+  text-align: right;
+  top: -5px;
+}
+
+.cambio p{
+		  position: relative;	  
+		  padding-right: 10px;
+		  
+		  font-size: 25px;	  
+		  font-weight: 600;
+		  
+		  
+		  
+}
+.boton-cart{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 35px;
+		transition: .5s;
+		padding:10px 20px;
+		background-color: #1359b6;
+		box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.397);
+		border-radius: 20px;
+		
+		color: white;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 10px;
+		text-align: center;
+		transform:translateX(-200px);
+
+}
+	
+	
+
+
+h6{ 
+	
+	position: relative;
+	bottom: 20px;
+	left: 15px;
+	
+	color: rgb(105, 105, 105);
+	font-size: 15px;
+	font-weight: 400;
+	
+}
+
+.shop-img:hover .movimiento{
+	
+	opacity: 0;
+	transition: .5s;
+    
+}
+.bags-flow{
+	display: inline-block;
+	width: 80px;
+	position: relative;
+	bottom: 20px;
+	overflow: hidden;
+}
+
+.movimiento2{
+	font-weight: 600;
+	position: relative;
+	transform:translateY(50px);
+	margin-left: 15px;
+	
+}
+
+.shop-img:hover  .boton-cart{
+	transition: .5s;
+    transform:translateX(20px);
+	
+}
+.shop-img:hover .h1-gg{
+	transition: .5s;
+	font-size: 15px;
+	
+}
+
+.shop-img:hover .bags{
+	transition: .5s;
+	opacity: 0;
+}
+
+.shop-img:hover  .movimiento2{
+	transition: .5s;
+    transform:translateY(0px);
+	
+}

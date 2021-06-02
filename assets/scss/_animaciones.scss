@@ -1,0 +1,33 @@
+.foo{
+	animation-name: foo;
+    
+    
+}
+@keyframes foo {
+	0% {opacity: 0%; }
+	30% { opacity: 30%;  }
+	72% { opacity: 72%;  }
+	100% { opacity: 100%;  }
+  }
+  .foo2{
+	animation-name: foo2;
+    
+    
+}
+@keyframes foo2 {
+	0% {opacity: 0%; }
+	30% { opacity: 30%;  }
+	72% { opacity: 72%;  }
+	100% { opacity: 100%;  }
+  }
+
+  .cuadros-animate{
+	animation-name: cuadros-animate;
+    
+    
+}
+@keyframes cuadros-animate {
+	0% {opacity: 25%; }
+	50% { opacity: 50%;  }
+	100% { opacity: 100%; }
+  }
